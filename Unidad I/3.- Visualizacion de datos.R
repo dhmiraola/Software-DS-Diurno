@@ -11,7 +11,7 @@ head(data)
 hist(Boston$crim, main="Tasa de Criminalidad", xlab="Tasa de Criminalidad", col="lightblue")
 
 # Boxplor
-boxplot(Boston$medv, main="Boxplot de Valor Medio de las Casas", ylab="Valor Medio de las Casas ($1000)")
+boxplot(Boston$medv, main="Boxplot de Valor Medio de las Casas", ylab="Valor Medio de las Casas")
 
 # Grafico de barras
 Boston$chas <- as.factor(Boston$chas)
